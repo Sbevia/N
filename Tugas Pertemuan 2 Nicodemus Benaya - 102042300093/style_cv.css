@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: lightgray;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-right: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: black;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.contact-info p, .section p {
+    margin: 5px 0;
+}
